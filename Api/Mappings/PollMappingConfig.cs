@@ -33,7 +33,7 @@ public sealed class PollMappingConfig : IRegister
         config.NewConfig<PollOption, PollOptionDto>()
             .Map(dest => dest.Id, src => src.Id.Value)
             .Map(dest => dest.Text, src => src.Text.Value)
-            .Map(dest => dest.VoteCount, src => 0); // Standalone doesn't compute vote count easily
+            .Map(dest => dest.VoteCount, src => 0);
 
         config.NewConfig<Vote, VoteDto>()
             .Map(dest => dest.VoterId, src => src.VoterId.Value)
@@ -44,7 +44,7 @@ public sealed class PollMappingConfig : IRegister
             .MapWith(src => new CreatePollOptionCommand(src.Text));
 
         config.NewConfig<UpdatePollOptionRequest, UpdatePollOptionCommand>()
-            .MapWith(src => new UpdatePollOptionCommand(Guid.Empty, src.Text)); // Id will be bound in Controller
+            .MapWith(src => new UpdatePollOptionCommand(Guid.Empty, src.Text));
 
         config.NewConfig<CreateVoteRequest, CreateVoteCommand>()
             .MapWith(src => new CreateVoteCommand(src.VoterId, src.OptionId));
