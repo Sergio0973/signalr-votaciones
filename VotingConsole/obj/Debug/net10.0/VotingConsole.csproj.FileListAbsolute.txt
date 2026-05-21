@@ -22,6 +22,7 @@ C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\ne
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingConsole.AssemblyInfoInputs.cache
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingConsole.AssemblyInfo.cs
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingConsole.csproj.CoreCompileInputs.cache
+C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingConsole.sourcelink.json
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingCo.4E130F62.Up2Date
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\VotingConsole.dll
 C:\Users\sergi\OneDrive\Escritorio\signalr-votaciones\VotingConsole\obj\Debug\net10.0\refint\VotingConsole.dll
